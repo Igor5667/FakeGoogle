@@ -9,7 +9,7 @@ function NavBar() {
       </a>
       <a href="#">Gmail</a>
       <a href="#">Grafika</a>
-      <div>
+      <div className="rounded-full p-2 transition hover:bg-google-gray-100">
         <img src="dots-menu.png" alt="dots menu" />
       </div>
       <LogInButton />
