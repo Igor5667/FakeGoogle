@@ -9,10 +9,11 @@ function Footer({ className }: FooterProps) {
         Polska
       </div>
       <div className="w-full h-1/2 flex items-center gap-5 px-5">
-        <a>Reklamuj się</a>
-        <a>Dla firm</a>
-        <a>Jak działa wyszukiwarka</a>
-        <div className="flex-1 flex justify-center">
+        <a className="footer-info">Reklamuj się</a>
+        <a className="footer-info">Dla firm</a>
+        <a className="footer-info">Jak działa wyszukiwarka</a>
+        <div className="flex-1 hidden md:flex justify-center items-center gap-2">
+          <img src="leaf.png" alt="leaf" className="h-[14px]" />
           <a href="" className="text-center">
             Już 30 lat działamy na rzecz klimatu: zobacz, co robimy
           </a>

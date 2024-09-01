@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="h-[100svh] md:h-screen flex flex-col">
       <NavBar />
-      <Logo />
+      <Logo className="mt-[5%]" />
       <SearchBar />
       <UnderButtons />
       <Footer className={"mt-auto"} />

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .footer-info {
+    @apply hidden md:inline;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;

@@ -1,13 +1,13 @@
 function SearchBar() {
   return (
     <div className="flex justify-center mt-4">
-      <div className="flex items-center gap-4 px-4 rounded-full border border-google-gray-100 hover:shadow-md p-2 w-[30%] h-12">
+      <div className="flex items-center gap-4 px-4 rounded-full border border-google-gray-100 hover:shadow-md p-2 w-90% md:w-[50%] lg:w-[30%]  h-12">
         <img
           src="search-icon.svg"
           alt="search icon"
           className="h-full text-google-gray-200"
         />
-        <input type="text" className="flex-1 focus:outline-none" />
+        <input type="text" className="flex-1 min-w-0 focus:outline-none" />
         <img
           src="keyboard-icon.png"
           alt="keyboard"
