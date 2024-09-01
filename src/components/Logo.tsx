@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <div className="flex justify-center">
-      <img src="main-logo.png" alt="google" className="w-[40%]" />
+      <img src="main-logo.png" alt="google" className="w-[30%]" />
     </div>
   );
 }

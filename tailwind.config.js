@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "google-gray": {
+          50: "#f8f9fa",
           100: "#dfe1e5",
           200: "#9aa0a6",
         },
