@@ -22,3 +22,11 @@ a:hover {
 .magic-border:hover {
   box-shadow: 0px 0px 0px 1px #dfe1e5;
 }
+
+.settings-list li {
+  padding: 10px;
+}
+
+.settings-list li:hover {
+  background-color: #00000028;
+}

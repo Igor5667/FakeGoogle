@@ -1,3 +1,5 @@
+import { Settings } from "./Settings";
+
 interface FooterProps {
   className?: string;
 }
@@ -34,7 +36,7 @@ function Footer({ className }: FooterProps) {
           Prywatność
         </a>
         <a href="https://policies.google.com/terms">Warunki</a>
-        <a href="">Ustawienia</a>
+        <Settings />
       </div>
     </div>
   );
