@@ -4,6 +4,15 @@ import {
   PopoverContent,
 } from "@material-tailwind/react";
 
+const settings = [
+  "Ustawienia wyszukiwania",
+  "Szukanie zaawansowane",
+  "Twoje dane w wyszukiwarce",
+  "Historia wyszukiwania ",
+  "Pomoc dotycząca wyszukiwania",
+  "Prześlij opinię",
+];
+
 export function Settings() {
   return (
     <Popover>
@@ -18,12 +27,9 @@ export function Settings() {
         onPointerLeaveCapture={undefined}
       >
         <ul className="settings-list whitespace-nowrap py-2">
-          <li>Ustawienia wyszukiwania</li>
-          <li>Szukanie zaawansowane</li>
-          <li>Twoje dane w wyszukiwarce</li>
-          <li>Historia wyszukiwania </li>
-          <li>Pomoc dotycząca wyszukiwania</li>
-          <li>Prześlij opinię</li>
+          {settings.map((setting) => (
+            <li key={setting}>{setting}</li>
+          ))}
         </ul>
       </PopoverContent>
     </Popover>
