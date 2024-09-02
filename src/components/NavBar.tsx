@@ -10,16 +10,16 @@ function NavBar() {
       <a href="#" className="me-auto hidden md:inline">
         Google Store
       </a>
-      <a href="#" className="hidden md:inline">
+      <a href="#" className="hidden md:inline ms-auto">
         Gmail
       </a>
       <a href="#" className="hidden md:inline">
         Grafika
       </a>
-      <div className="inline md:hidden rounded-full p-2 transition hover:bg-google-gray-100">
+      <div className="inline md:hidden me-auto rounded-full p-2 transition hover:bg-google-gray-100">
         <IoMenu size={24} />
       </div>
-      <div className="rounded-full p-2 transition hover:bg-google-gray-100 ms-auto">
+      <div className="rounded-full p-2 transition hover:bg-google-gray-100">
         <img src="dots-menu.png" alt="dots menu" />
       </div>
       <LogInButton />
