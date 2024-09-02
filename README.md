@@ -2,9 +2,9 @@
 
 # Fake Google App
 
-Made this for fun
-Focusing on visual display design
-Time spent - 5h
+Made this for fun<br>
+Focusing on visual display design<br>
+Time spent - 5h<br>
 
 ## Used:
 
