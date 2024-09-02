@@ -45,7 +45,7 @@ function DottedMenu() {
         onPointerLeaveCapture={undefined}
       >
         {moreApps.map(({ name, icon }) => (
-          <div className="w-1/3 h-[100px] p-1 ">
+          <div className="w-1/3 h-[100px] p-1" key={name}>
             <div
               className="h-full bg-google-gray-50 hover:bg-google-gray-100 p-2 rounded-full
               justify-center items-center text-center flex flex-col"

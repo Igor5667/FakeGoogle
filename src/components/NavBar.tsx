@@ -1,8 +1,12 @@
 import { IoMenu } from "react-icons/io5";
 import LogInButton from "./LogInButton";
 import DottedMenu from "./DottedMenu";
+import PhoneMenu from "./PhoneMenu";
+import { useState } from "react";
 
 function NavBar() {
+  const [isMenuShown, setIsMenuShown] = useState(false);
+
   return (
     <div className="flex justify-center items-center gap-4 p-4 ">
       <a href="https://about.google/" className="hidden md:inline">
@@ -21,7 +25,7 @@ function NavBar() {
 
       {/* Menu on small devices */}
       <div className="inline md:hidden me-auto rounded-full p-2 transition hover:bg-google-gray-100">
-        <IoMenu size={24} />
+        <IoMenu size={24} onClick={() => setIsMenuShown(true)} />
       </div>
 
       {/* Doted menu on medium devices and above */}
@@ -30,6 +34,13 @@ function NavBar() {
       </div>
 
       <LogInButton />
+
+      {isMenuShown && (
+        <PhoneMenu
+          className="block md:hidden"
+          hideMenu={() => setIsMenuShown(false)}
+        />
+      )}
     </div>
   );
 }
