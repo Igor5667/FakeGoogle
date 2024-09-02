@@ -9,7 +9,7 @@ function Logo({ className }: PropsLogo) {
       <img
         src="fake-img.png"
         alt="fake"
-        className="w-[15%] absolute -top-[40%] right-[30%] rotate-[20deg]"
+        className="w-[15%] absolute -top-[40%] right-[30%] rotate-[20deg] -z-123"
       />
     </div>
   );

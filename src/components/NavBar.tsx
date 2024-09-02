@@ -24,8 +24,11 @@ function NavBar() {
       </a>
 
       {/* Menu on small devices */}
-      <div className="inline md:hidden me-auto rounded-full p-2 transition hover:bg-google-gray-100">
-        <IoMenu size={24} onClick={() => setIsMenuShown(true)} />
+      <div
+        className="inline md:hidden me-auto rounded-full p-2 transition hover:bg-google-gray-100"
+        onClick={() => setIsMenuShown(true)}
+      >
+        <IoMenu size={24} />
       </div>
 
       {/* Doted menu on medium devices and above */}

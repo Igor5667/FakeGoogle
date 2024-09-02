@@ -16,7 +16,7 @@ function PhoneMenu({ className, hideMenu }: PhoneMenuProps) {
   return (
     <div
       className={`absolute top-0 left-0 h-[100svh] md:h-screen w-[100svw] md:w-screen
-     bg-white flex flex-col items-center gap-10 pt-[30%] ${className}`}
+     bg-white flex flex-col items-center gap-10 pt-[30%] z-20 ${className} `}
     >
       <div>
         <RxCross1 className="mb-12" onClick={hideMenu} size={20} />
