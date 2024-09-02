@@ -9,18 +9,32 @@ function Footer({ className }: FooterProps) {
         Polska
       </div>
       <div className="w-full h-1/2 flex items-center gap-5 px-5">
-        <a className="footer-info">Reklamuj się</a>
-        <a className="footer-info">Dla firm</a>
-        <a className="footer-info">Jak działa wyszukiwarka</a>
+        <a href="https://ads.google.com/" className="footer-info">
+          Reklamuj się
+        </a>
+        <a href="https://www.google.com/services" className="footer-info">
+          Dla firm
+        </a>
+        <a
+          href="https://www.google.com/search/howsearchworks"
+          className="footer-info"
+        >
+          Jak działa wyszukiwarka
+        </a>
         <div className="flex-1 hidden lg:flex justify-center items-center gap-2">
           <img src="leaf.png" alt="leaf" className="h-[14px]" />
-          <a href="" className="text-center">
+          <a href="https://sustainability.google/" className="text-center">
             Już 30 lat działamy na rzecz klimatu: zobacz, co robimy
           </a>
         </div>
-        <a className="md:ms-auto lg:ms-0">Prywatność </a>
-        <a>Warunki</a>
-        <a>Ustawienia</a>
+        <a
+          href="https://policies.google.com/privacy"
+          className="md:ms-auto lg:ms-0"
+        >
+          Prywatność
+        </a>
+        <a href="https://policies.google.com/terms">Warunki</a>
+        <a href="">Ustawienia</a>
       </div>
     </div>
   );

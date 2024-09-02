@@ -1,5 +1,3 @@
-import { BiLogIn } from "react-icons/bi";
-
 function LogInButton() {
   const handleLogin = () => {
     window.location.href = "https://accounts.google.com/";
