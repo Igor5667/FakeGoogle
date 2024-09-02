@@ -1,6 +1,6 @@
 function UnderButtons() {
   return (
-    <div className="flex justify-center gap-5 p-6">
+    <div className="flex justify-center gap-5 p-6 flex-wrap">
       <GreyButton text="Szukaj w Google" />
       <GreyButton text="Szczęśliwy traf" />
     </div>

@@ -12,13 +12,13 @@ function Footer({ className }: FooterProps) {
         <a className="footer-info">Reklamuj się</a>
         <a className="footer-info">Dla firm</a>
         <a className="footer-info">Jak działa wyszukiwarka</a>
-        <div className="flex-1 hidden md:flex justify-center items-center gap-2">
+        <div className="flex-1 hidden lg:flex justify-center items-center gap-2">
           <img src="leaf.png" alt="leaf" className="h-[14px]" />
           <a href="" className="text-center">
             Już 30 lat działamy na rzecz klimatu: zobacz, co robimy
           </a>
         </div>
-        <a>Prywatność </a>
+        <a className="md:ms-auto lg:ms-0">Prywatność </a>
         <a>Warunki</a>
         <a>Ustawienia</a>
       </div>

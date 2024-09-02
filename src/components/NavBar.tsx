@@ -16,7 +16,7 @@ function NavBar() {
       <a href="#" className="hidden md:inline">
         Grafika
       </a>
-      <div className="inline md:hidden">
+      <div className="inline md:hidden rounded-full p-2 transition hover:bg-google-gray-100">
         <IoMenu size={24} />
       </div>
       <div className="rounded-full p-2 transition hover:bg-google-gray-100 ms-auto">

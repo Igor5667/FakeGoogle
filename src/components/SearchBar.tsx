@@ -1,7 +1,7 @@
 function SearchBar() {
   return (
     <div className="flex justify-center mt-4">
-      <div className="flex items-center gap-4 px-4 rounded-full border border-google-gray-100 hover:shadow-md p-2 w-90% md:w-[50%] lg:w-[30%]  h-12">
+      <div className="flex items-center gap-4 px-4 rounded-full border border-google-gray-100 hover:shadow-md p-2 w-[90%] md:w-[50%] lg:w-[30%]  h-12">
         <img
           src="search-icon.svg"
           alt="search icon"
@@ -11,7 +11,7 @@ function SearchBar() {
         <img
           src="keyboard-icon.png"
           alt="keyboard"
-          className="h-full cursor-pointer"
+          className="hidden lg:inlineh-full cursor-pointer"
         />
         <img
           src="microphone-icon.svg"
