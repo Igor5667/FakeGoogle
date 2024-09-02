@@ -27,7 +27,7 @@ function SearchBar() {
         <img
           src="keyboard-icon.png"
           alt="keyboard"
-          className="hidden lg:inlineh-full cursor-pointer"
+          className="hidden lg:inline h-full cursor-pointer"
         />
         <img
           src="microphone-icon.svg"

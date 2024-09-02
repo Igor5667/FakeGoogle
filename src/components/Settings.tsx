@@ -11,7 +11,7 @@ export function Settings() {
         <a>Ustawienia</a>
       </PopoverHandler>
       <PopoverContent
-        className="text-black text-md p-0"
+        className="text-black text-md p-0 shadow-lg"
         // that TypeScript wants
         placeholder={undefined}
         onPointerEnterCapture={undefined}

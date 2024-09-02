@@ -1,5 +1,6 @@
 import { IoMenu } from "react-icons/io5";
 import LogInButton from "./LogInButton";
+import DottedMenu from "./DottedMenu";
 
 function NavBar() {
   return (
@@ -23,9 +24,9 @@ function NavBar() {
         <IoMenu size={24} />
       </div>
 
-      {/* Dots menu on medium devices and above */}
+      {/* Doted menu on medium devices and above */}
       <div className="rounded-full p-2 transition hover:bg-google-gray-100">
-        <img src="dots-menu.png" alt="dots menu" />
+        <DottedMenu />
       </div>
 
       <LogInButton />
